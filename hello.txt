@@ -1,0 +1,39 @@
+
+
+/*
+Magic Terms:
+gcloud app browse
+dev_appserver.py app.yml   -> runs your shit in dev
+
+package main
+
+byte
+rune
+string
+int
+int64
+float64
+error
+
+type myType int64
+
+type Displayer interface {
+	Display()
+}
+
+func (m myType) Display() {
+	println(m)
+}
+
+func (m myType) Error() {
+	println("this is an error")
+}
+
+func main() {
+	var yo myType
+	yo = 5
+	yo.Display()
+	yo.Error()
+}
+
+*/
